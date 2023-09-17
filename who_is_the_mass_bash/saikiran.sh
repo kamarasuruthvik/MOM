@@ -32,7 +32,7 @@ then
 else
 	type_writer_text "YOU FORGOT THE MAN OF MASS!!!! , YOU WILL BE HACKED!"
 	SLEEP 2
-	ascii-image-converter ~/Downloads/saikiran-is-man-of-mass.jpeg -C -b --dither
+	ascii-image-converter ./saikiran-is-man-of-mass.jpeg -C -b --dither
 	mass_loop
 	type_writer_text "SAI KIRAN IS THE MAN OF MAAASSSSSSS"
 fi
